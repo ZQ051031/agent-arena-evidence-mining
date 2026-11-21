@@ -1,0 +1,18 @@
+[Unit]
+Description=Agent Arena evidence mining (operator-configured)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/repos/agent-arena-evidence-mining
+EnvironmentFile=/home/ubuntu/repos/agent-arena-evidence-mining/.env
+ExecStart=/usr/bin/python3.10 -m arena loop --interval 60 --until 2026-12-11T17:00:00Z
+Restart=on-failure
+RestartSec=60
+UMask=0077
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

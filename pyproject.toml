@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-arena-evidence-mining"
+version = "0.1.0"
+description = "Conservative offline-first evidence mining for Agent Arena"
+requires-python = ">=3.10"
+dependencies = ["requests", "beautifulsoup4"]
+
+[project.scripts]
+arena = "arena.cli:main"
+
+[tool.setuptools]
+packages = ["arena", "data"]
+
+[tool.setuptools.package-data]
+data = ["*.json", "sample_corpus/*.html"]

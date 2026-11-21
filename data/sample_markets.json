@@ -1,0 +1,66 @@
+{
+  "sample": true,
+  "notice": "Illustrative only, not real Delphi markets",
+  "markets": [
+    {
+      "id": "civic",
+      "question": "Will the sample civic council approve the transit bill?",
+      "category": "politics",
+      "keywords": [
+        "civic",
+        "transit",
+        "bill"
+      ],
+      "description": "Illustrative fictional market; not a real Delphi market.",
+      "close_time": "2026-12-20T17:00:00Z",
+      "evidence_cutoff": "2026-12-11T17:00:00Z",
+      "resolution_criteria": "Illustrative official announcement only.",
+      "sample": true
+    },
+    {
+      "id": "macro",
+      "question": "Will sample macro output increase in December?",
+      "category": "economics",
+      "keywords": [
+        "macro",
+        "output",
+        "growth"
+      ],
+      "description": "Illustrative fictional market; not a real Delphi market.",
+      "close_time": "2026-12-20T17:00:00Z",
+      "evidence_cutoff": "2026-12-11T17:00:00Z",
+      "resolution_criteria": "Illustrative official announcement only.",
+      "sample": true
+    },
+    {
+      "id": "tech",
+      "question": "Will the sample tech network launch its upgrade?",
+      "category": "crypto/tech",
+      "keywords": [
+        "tech",
+        "network",
+        "upgrade"
+      ],
+      "description": "Illustrative fictional market; not a real Delphi market.",
+      "close_time": "2026-12-20T17:00:00Z",
+      "evidence_cutoff": "2026-12-11T17:00:00Z",
+      "resolution_criteria": "Illustrative official announcement only.",
+      "sample": true
+    },
+    {
+      "id": "sport",
+      "question": "Will the sample sports club win the cup?",
+      "category": "sports",
+      "keywords": [
+        "sports",
+        "club",
+        "cup"
+      ],
+      "description": "Illustrative fictional market; not a real Delphi market.",
+      "close_time": "2026-12-20T17:00:00Z",
+      "evidence_cutoff": "2026-12-11T17:00:00Z",
+      "resolution_criteria": "Illustrative official announcement only.",
+      "sample": true
+    }
+  ]
+}
